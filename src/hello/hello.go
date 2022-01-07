@@ -11,6 +11,8 @@ func main() {
 	fmt.Println("Olá," + nome1)
 	fmt.Println("Você está executando a versão 1.0 do sistema")
 
+	// Menu do sistema
+
 	fmt.Println("----------------------")
 
 	fmt.Println("Iniciando Menu do sistema")
@@ -21,4 +23,17 @@ func main() {
 	fmt.Scanf("%d", &comando)
 
 	fmt.Println("O comando escolhido foi", comando)
+
+	// Escolha do usuário
+
+	switch {
+	case 1:
+		fmt.Println("Iniciando Monitoramente")
+	case 2:
+		fmt.Println("Iniciando Logs")
+	case 0:
+		fmt.Println("Saindo do programa...")
+	default:
+		fmt.Println("Não reconheço esse comando...")
+	}
 }
