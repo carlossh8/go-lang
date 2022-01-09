@@ -4,6 +4,6 @@ Go é uma linguagem de programação criada pela Google e lançada em código li
 
 #
 ## Objetivo deste repositório
-#
+
 
 O objetivo deste respositório, é colocar em prática os conhecimentos adquiridos durante as aulas ministradas na plataforma [alura](https://www.alura.com.br/).
