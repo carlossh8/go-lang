@@ -71,7 +71,15 @@ func lerOpcao() int {
 
 func IniciarMonitoramento() {
 	fmt.Println("Iniciando Monitoramento")
-	site := "https://github.com/"
+	sites := []string{"https://github.com/", "https://google.com", "https://www.correiobraziliense.com.br/"}
+
+	fmt.Println(sites)
+
+	for i, site := range sites {
+		fmt.Println("Estou passando a posição", i, "do site monitorado, e aqui está :", site)
+	}
+
+	site := "https://github.com"
 	resp, _ := http.Get(site)
 
 	if resp.StatusCode == 200 {
