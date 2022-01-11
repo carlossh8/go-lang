@@ -29,12 +29,14 @@ func main() {
 		case 1:
 			iniciarMonitoramento()
 		case 2:
-			fmt.Println("Iniciando Logs")
+			fmt.Println("Exibindo Logs...")
+			imprimeLogs()
 		case 0:
 			fmt.Println("Saindo do programa...")
 			os.Exit(0)
 		default:
 			fmt.Println("Não reconheço esse comando...")
+			os.Exit(-1)
 		}
 	}
 }
