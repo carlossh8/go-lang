@@ -78,7 +78,7 @@ func lerOpcao() int {
 	return comando
 }
 
-// Responsável pelo monitoramente
+// Responsável pelo monitoramento
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
