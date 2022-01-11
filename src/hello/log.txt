@@ -1,1 +1,6 @@
-10/01/2022 10:56:39 - https://www.alura.com.br - online: true
+10/01/2022 10:56:39 - https://www.alura.com.br - online: true10/01/2022 22:09:50 - https://github.com/ - online: true
+10/01/2022 22:09:50 - https://www.google.com.br/ - online: true
+10/01/2022 22:09:50 - https://www.correiobraziliense.com.br/ - online: true
+10/01/2022 22:09:56 - https://github.com/ - online: true
+10/01/2022 22:09:56 - https://www.google.com.br/ - online: true
+10/01/2022 22:09:56 - https://www.correiobraziliense.com.br/ - online: true
